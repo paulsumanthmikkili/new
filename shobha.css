@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+   
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    right: 50px;
+    background-image: url("./profile.jpg");
+    background-size: cover;
+
+    }
+    .logo:hover{
+        border-color: orange;
+    }
+    h1{
+        color: white;
+        /* font-size: 50px; */
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        margin-left: 80px;
+
+         }
+       .heading{
+        display: flex;
+        /* justify-content: center; */
+       }
+       a{
+        color: white;
+        margin-left: 10px;
+       }
+       .main{
+        height: 500px;
+        background-color: pink;
+        background-image: url("./mecha.jpg");
+         background-size: contain; 
+         
+        
+    }
+    .mess{
+        height: 50px;
+        background-color: white;
+        color: rgba(255, 0, 0, 1);
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    i{
+        color: black;
+        font-size: 30px;
+    }
+      
+    
+      
